@@ -21,6 +21,7 @@ cd Stocky-Stock-Manager
 ```
 ### For Linux
 ```
+source bin/activate
 ```
 ### Run App
 ```
