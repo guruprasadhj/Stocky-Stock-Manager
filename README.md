@@ -14,16 +14,16 @@ ___
 ```
 git clone https://github.com/guruprasadhj/Stocky-Stock-Manager.git
 cd Stocky-Stock-Manager
-'''
-### For Windows
-'''
+```
+## For Windows
+```
 .\Script\activate
-'''
+```
 ### For Linux
-'''
-'''
+```
+```
 ### Run App
-'''
+```
 cd src
 python manage.py runserver
 ```
