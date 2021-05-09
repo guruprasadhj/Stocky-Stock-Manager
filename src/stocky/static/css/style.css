@@ -1,0 +1,93 @@
+main {
+    font-family: 'Poppins', sans-serif;
+    margin: 70px 0;
+    padding: 10px;  
+}
+body{
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+* {box-sizing:border-box;}
+
+
+.glass {
+    margin: 0 auto;
+    width: 200px;
+    align-items: center;
+    background: white;
+    min-height: 80vh;
+    width: 80%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 50px;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    
+}
+
+
+
+.dashboard {
+    min-height: 80vh;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+}
+
+.link {
+    display: flex;
+    margin: 1rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+input[type=text] {
+    padding:10px;
+    margin:10px 0; 
+  }
+
+
+#trooper {
+    padding-top: 20PX;
+    width: 7rem;
+    height: 8rem;
+} 
+
+
+
+h3 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+p {
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.circle1,.circle2 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+    top: 1%;
+    right: 6%;
+
+}
+
+.circle2 {
+    bottom: 10%;
+    left: 5%;
+    z-index: -5;
+}

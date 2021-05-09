@@ -1,0 +1,237 @@
+body {
+/*overflow: hidden; 
+*/
+background-color: #2b2b2b;
+/*background-image:url('https://cdn.nohat.cc/thumb/f/720/comvecteezy399517.jpg');
+background-repeat: no-repeat; 
+ background-size: cover;
+*/
+background: linear-gradient(to right top, #ffafd6,#ff8ff4, #a885f9,#99caf5);
+
+ 
+}
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+/*Align the title to the center of the page*/
+.table{
+	font-size: 13px;
+	text-align: center;
+	width: 95%;
+	margin: auto;
+	text-align: center;
+}
+
+/*Make alternating colors for the table rows*/
+.table tr:nth-child(odd){
+	background: #fefffe
+}
+
+.table tr:nth-child(even){
+	background: #e9edee
+}
+
+th {
+  background-color: #343a40;
+  color: white;
+}
+
+.display_table{
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 20px;
+	box-shadow: 0px 0px 6px 0px black;
+}
+.header {
+    font-family: helvetica;
+    color: #6f747e;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    
+    display: block;
+    font-weight: bolder;
+}
+.success{
+    border-radius:25px;
+     list-style: none;
+     background-color: #40454a;
+     color: white;
+     box-shadow: 12px 12px 12px #e61c66;    
+     text-align: center;
+ }
+
+
+
+.big-banner{
+	border-radius: 30px;
+    color: black;
+	box-shadow: 0 0 5px 0 white;
+	background-image:linear-gradient(to right,blue 0%,red 100%);
+    background-color: white;
+    opacity: 80%;
+    background-blend-mode: lighten;
+    backdrop-filter: blur(10px);
+    
+  }
+
+.navbar-custom {
+    background-color: green;
+}
+.mybutton{
+        width: 100%;
+      }
+
+
+
+
+main {
+    font-family: 'Poppins', sans-serif;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+main {
+    font-family: 'Poppins', sans-serif;
+    
+    padding: 10px;  
+}*/
+/*.glass {
+    margin: auto;
+  position: absolute;
+  top: 1; left: 0; bottom: 15; right: 0;
+
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    width: 200px;
+    align-items: center;
+    background: white;
+    min-height: 80vh;
+    width: 80%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 50px;
+    z-index: 10;
+    backdrop-filter: blur(2rem);
+    
+}
+*/
+.styled-table {
+    background-color: #e9edee;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 900px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 500px;
+    overflow: auto;
+}
+
+
+.glass {
+    background: white;
+    min-height: 80vh;
+    width: 80%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+.dashboard {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+}
+
+
+/*.dashboard {
+    min-height: 80vh;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 50px;
+}
+*/
+.inventory {
+    margin: 10px;
+    
+}
+.status {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+
+
+
+.search{
+    align-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: #444444;
+    font-weight: 600;
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+h2,
+p {
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+h3 {
+    color: #444444;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.circle1,.circle2 {
+    z-index: auto;
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+    top: 5%;
+    right: 6%;
+}
+
+.circle2 {
+    bottom: -10%;
+    left: 5%;
+}

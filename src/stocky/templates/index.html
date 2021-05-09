@@ -1,0 +1,91 @@
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>HOME</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+  <main role="main" class="container">
+
+
+
+    <div class="display_table">
+      <table class='table'>
+        <thead>
+          <tr>
+            <th>COUNT</th>
+            <th>CATEGORY</th>
+            <th>ITEM NAME</th>
+            <th>QUANTITY IN STORE</th>
+            <th>DELETE</th>
+          </tr>
+        </thead>
+        {% for instance in queryset %}
+        <tr>
+          <td>{{forloop.counter}}</td>
+          <td>{{instance.category}}</td>
+          <td><a href="{% url 'update_items' instance.id %}">{{instance.item_name}}</a></td>
+          <td>{{instance.quantity}}</td>
+          <td><a href="{% url 'delete_items' instance.id %}"><img src="{% static 'img/delete.png' %}"></a></td>
+
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+    </div>
+    <section class="glass">
+      <div class="dashboard">
+        <div class="user">
+          <img id="trooper" src="{% static 'img/profile.png' %}" alt="stormtrooper id photo">
+          <h3>@guruprasadh_j</h3>
+          <p>SuperUSer</p>
+        </div>
+        <input type="text" placeholder="Name" />
+        <div class="links">
+          <div class="link">
+            <img src="twitch.png" alt="">
+            <h2>Streams</h2>
+          </div>
+          <div class="link">
+            <img src="library.png" alt="">
+            <h2>Article</h2>
+            <ul class="messages">
+              {% for message in messages %}
+              <li{% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
+                {% if messages %}
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            <div class="jumbotron big-banner">
+              <div class="header">{{header}}</div>
+
+              <form method='POST' action=''>{% csrf_token %}
+                {{form|crispy}}
+                <input type="submit" value='Search' />
+              </form>
+              <br>
+
+            </div>
+
+          </div>
+
+        </div>
+
+    </section>
+
+  </main>>
+  <div class="circle1"></div>
+  <div class="circle2"></div>
+</body>
+
+</html>>
