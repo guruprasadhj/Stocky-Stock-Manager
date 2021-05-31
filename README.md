@@ -45,6 +45,11 @@ Just Fork and Good to go....
 😋  😊  😇
  
 ___
+### Created & Maintained By
+
+[Guru Prasadh J](https://github.com/guruprasadhj) ([@guruprasadh_j](https://twitter.com/guruprasadh_j)) ([YouTube](https://www.youtube.com/channel/UCNO3HXi5Jm_yNmGhfsHBDpg))
+
+Recommend/Endorse me on [LinkedIn](https://www.linkedin.com/in/guruprasadhj/)
 ## License
 
 [MIT](https://github.com/guruprasadhj/Stocky-Stock-Manager/blob/master/LICENSE)
