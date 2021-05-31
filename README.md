@@ -9,6 +9,10 @@ Stocky is simple stock mangenment software which helps people to update new prod
 - Productive 🧲
 - Easy Use UI 💻
 ___
+## Screenshot
+![guruprasadhj Stocky-Stock-Manager Screenshots](https://github.com/guruprasadhj/Stocky-Stock-Manager/blob/main/Screenshots/%20(1).png?raw=true)
+
+___
 ## Installation
 
 ```
