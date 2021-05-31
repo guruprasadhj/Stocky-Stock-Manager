@@ -4,10 +4,12 @@
 ⚠ (The software and documentation is in process)\
 Stocky is simple stock mangenment software which helps people to update new product for reference rather than maintaing note which.
 ## Features
+- Export as Excel 🖨
+- Easy Use UI 💻
 - Light-Weight 💨
 - Super FAST 🔥
 - Productive 🧲
-- Easy Use UI 💻
+
 ___
 ## Screenshot
 ![guruprasadhj Stocky-Stock-Manager Screenshots](https://github.com/guruprasadhj/Stocky-Stock-Manager/blob/main/Screenshots/(1).png?raw=true)
