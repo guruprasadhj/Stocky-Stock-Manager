@@ -1,7 +1,7 @@
 # Stocky-Stock-Manager
 ### Simple 🌈 . EASY 😍 . CLEAN 🧼  
 #### If you have Doubt in it. Check it Out.
-⚠ (The software and documentation is in development stage)\
+⚠ (The software and documentation is in process)\
 Stocky is simple stock mangenment software which helps people to update new product for reference rather than maintaing note which.
 ## Features
 - Light-Weight 💨
