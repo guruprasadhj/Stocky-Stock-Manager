@@ -2,7 +2,7 @@
 ### Simple 🌈 . EASY 😍 . CLEAN 🧼  
 #### If you have Doubt in it. Check it Out.
 ⚠ (The software and documentation is in process)\
-Stocky is simple stock mangenment software which helps people to update new product for reference rather than maintaing note which.
+Stocky is simple stock mangenment software which helps people to update new product for reference rather than maintaing note. access your product details, anywhere, anytime you want.
 ## Features
 - Export as Excel 🖨
 - Easy Use UI 💻
